@@ -3,7 +3,9 @@ using namespace std;
 
 int main() {
     
-    int rows = 5; // Number of rows for the triangle
+    int rows; // Number of rows for the triangle
+    cout << "Enter the number of rows: " << endl;
+    cin >> rows;
     
     for (int i = 1; i <= rows; i++) {
         // Print stars for the current row
